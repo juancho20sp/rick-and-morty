@@ -1,0 +1,28 @@
+.container {
+    justify-self: center;
+    align-self: center;
+
+    text-align: center;
+
+    width: 80%;
+
+    display: grid;
+    grid-template: repeat(3, 80px)/ 1fr;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    font-size: 2.8rem;
+}
+
+.container p {
+    font-size: 1.8rem;
+}
+
+.container__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

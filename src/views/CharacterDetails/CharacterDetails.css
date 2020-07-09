@@ -1,0 +1,62 @@
+.character__container {
+    color: #d3eceb;
+
+    margin-top: 2.5rem;
+
+    display: grid;
+    grid-template: auto auto 1fr / repeat(2, 1fr);
+    grid-template-areas: 'photo data'
+        'photo similars'
+        'button button';
+}
+
+
+.character__image {
+    grid-area: photo;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.character__image img {
+    border: 1px solid #d7df62;
+    border-radius: 15px;
+
+    width: 55%;
+
+    box-shadow: 0 0 15px 0 #d7df62;
+}
+
+.character__data {
+    grid-area: data;
+}
+
+.char__name {
+    font-size: 2.5rem;
+
+    margin-bottom: 2rem;
+}
+
+.char__species {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.char__status {
+    font-size: 1.8rem;
+
+}
+
+.similars {
+    grid-area: similars;
+}
+
+.character__button {
+    grid-area: button;
+
+
+    justify-self: center;
+    align-self: center;
+}

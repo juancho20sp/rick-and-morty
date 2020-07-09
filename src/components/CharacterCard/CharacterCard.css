@@ -1,0 +1,51 @@
+.card__container {
+    background-color: #3a484b;
+    border-radius: 15px;
+
+    height: 450px;
+    width: 360px;
+
+    padding: 36px 38px;
+    margin: 0 auto;
+
+    box-shadow: 2px 5px 15px 0 #d7df62;
+
+    display: grid;
+}
+
+.card__container:hover {
+    cursor: pointer;
+    box-shadow: 2px 5px 35px 0 #d7df62;
+}
+
+.card__container p {
+    color: #d3eceb;
+}
+
+.char-name {
+    font-size: 22px;
+}
+
+.char-origin {
+    font-size: 18px;
+}
+
+.char-status {
+    font-size: 16px;
+}
+
+.card__image img {
+    border-radius: 15px;
+    width: 284px;
+}
+
+@media screen and (max-width: 480px) {
+    .card__container {
+        height: 420px;
+        width: 340px;
+
+        margin: initial;
+        margin-left: 15px;
+        padding: 25px 25px;
+    }
+}

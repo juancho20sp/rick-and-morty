@@ -1,0 +1,23 @@
+.button__container {
+    background-color: #3a484b;
+    border-radius: 20px;
+    color: #d3eceb;
+
+    font-size: 20px;
+
+    height: 3rem;
+    width: 290px;
+
+    box-shadow: 0 0 10px 0 #d7df62;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button__container:hover {
+    cursor: pointer;
+    box-shadow: 0 0 20px 0 #d7df62;
+
+}
